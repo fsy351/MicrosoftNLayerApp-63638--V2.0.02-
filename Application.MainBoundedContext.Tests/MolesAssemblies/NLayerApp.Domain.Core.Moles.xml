@@ -1,0 +1,855 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NLayerApp.Domain.Core.Moles</name>
+    </assembly>
+    <members>
+        <member name="T:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MAndSpecification`1">
+            <summary>Mole type of <see cref="T:Microsoft.Samples.NLayerApp.Domain.Core.Specification.AndSpecification`1"/>
+            .</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MAndSpecification`1.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MAndSpecification`1.#ctor(Microsoft.Samples.NLayerApp.Domain.Core.Specification.AndSpecification{`0})">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MAndSpecification`1.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MAndSpecification`1.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MAndSpecification`1.Bind(Microsoft.Samples.NLayerApp.Domain.Core.Specification.ISpecification{`0})">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MAndSpecification`1.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MAndSpecification`1.ConstructorISpecificationOfTISpecificationOfT">
+            <summary>Sets the mole of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.AndSpecification`1.#ctor(Microsoft.Samples.NLayerApp.Domain.Core.Specification.ISpecification`1{`1},Microsoft.Samples.NLayerApp.Domain.Core.Specification.ISpecification`1{`1})"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MAndSpecification`1.LeftSideSpecificationGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.Samples.NLayerApp.Domain.Core.Specification.AndSpecification`1.LeftSideSpecification"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MAndSpecification`1.RightSideSpecificationGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.Samples.NLayerApp.Domain.Core.Specification.AndSpecification`1.RightSideSpecification"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MAndSpecification`1.SatisfiedBy">
+            <summary>Sets the mole of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.AndSpecification`1.SatisfiedBy"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MAndSpecification`1.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MAndSpecification`1.AllInstances.LeftSideSpecificationGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.Samples.NLayerApp.Domain.Core.Specification.AndSpecification`1.LeftSideSpecification"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MAndSpecification`1.AllInstances.RightSideSpecificationGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.Samples.NLayerApp.Domain.Core.Specification.AndSpecification`1.RightSideSpecification"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MAndSpecification`1.AllInstances.SatisfiedBy">
+            <summary>Sets the mole of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.AndSpecification`1.SatisfiedBy"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MCompositeSpecification`1">
+            <summary>Mole type of <see cref="T:Microsoft.Samples.NLayerApp.Domain.Core.Specification.CompositeSpecification`1"/>
+            .</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MCompositeSpecification`1.#ctor(Microsoft.Samples.NLayerApp.Domain.Core.Specification.CompositeSpecification{`0})">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MCompositeSpecification`1.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MCompositeSpecification`1.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MCompositeSpecification`1.Bind(Microsoft.Samples.NLayerApp.Domain.Core.Specification.ISpecification{`0})">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MCompositeSpecification`1.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MCompositeSpecification`1.Constructor">
+            <summary>Sets the mole of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.CompositeSpecification`1.#ctor"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MCompositeSpecification`1.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MDirectSpecification`1">
+            <summary>Mole type of <see cref="T:Microsoft.Samples.NLayerApp.Domain.Core.Specification.DirectSpecification`1"/>
+            .</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MDirectSpecification`1.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MDirectSpecification`1.#ctor(Microsoft.Samples.NLayerApp.Domain.Core.Specification.DirectSpecification{`0})">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MDirectSpecification`1.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MDirectSpecification`1.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MDirectSpecification`1.Bind(Microsoft.Samples.NLayerApp.Domain.Core.Specification.ISpecification{`0})">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MDirectSpecification`1.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MDirectSpecification`1.ConstructorExpressionOfFuncOfTEntityBoolean">
+            <summary>Sets the mole of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.DirectSpecification`1.#ctor(System.Linq.Expressions.Expression`1{System.Func`2{`1,System.Boolean}})"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MDirectSpecification`1.SatisfiedBy">
+            <summary>Sets the mole of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.DirectSpecification`1.SatisfiedBy"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MDirectSpecification`1.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MDirectSpecification`1.AllInstances.SatisfiedBy">
+            <summary>Sets the mole of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.DirectSpecification`1.SatisfiedBy"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Domain.Core.Moles.MEntity">
+            <summary>Mole type of <see cref="T:Microsoft.Samples.NLayerApp.Domain.Core.Entity"/>
+            .</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Moles.MEntity.#ctor(Microsoft.Samples.NLayerApp.Domain.Core.Entity)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Moles.MEntity.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Moles.MEntity.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Moles.MEntity.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Moles.MEntity.Constructor">
+            <summary>Sets the mole of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.Entity.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Moles.MEntity.EqualityOpEntityEntity">
+            <summary>Sets the mole of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.Entity.op_Equality(Microsoft.Samples.NLayerApp.Domain.Core.Entity,Microsoft.Samples.NLayerApp.Domain.Core.Entity)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Moles.MEntity.EqualsObject">
+            <summary>Sets the mole of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.Entity.Equals(System.Object)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Moles.MEntity.GetHashCode">
+            <summary>Sets the mole of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.Entity.GetHashCode"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Moles.MEntity.IdGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.Samples.NLayerApp.Domain.Core.Entity.Id"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Moles.MEntity.IdSetGuid">
+            <summary>Sets the mole of <see cref="P:Microsoft.Samples.NLayerApp.Domain.Core.Entity.Id"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Moles.MEntity.InequalityOpEntityEntity">
+            <summary>Sets the mole of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.Entity.op_Inequality(Microsoft.Samples.NLayerApp.Domain.Core.Entity,Microsoft.Samples.NLayerApp.Domain.Core.Entity)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Moles.MEntity.IsTransient">
+            <summary>Sets the mole of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.Entity.IsTransient"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Moles.MEntity.OnIdChanged">
+            <summary>Sets the mole of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.Entity.OnIdChanged"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Domain.Core.Moles.MEntity.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Moles.MEntity.AllInstances.EqualsObject">
+            <summary>Sets the mole of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.Entity.Equals(System.Object)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Moles.MEntity.AllInstances.GetHashCode01">
+            <summary>Sets the mole of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.Entity.GetHashCode"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Moles.MEntity.AllInstances.IdGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.Samples.NLayerApp.Domain.Core.Entity.Id"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Moles.MEntity.AllInstances.IdSetGuid">
+            <summary>Sets the mole of <see cref="P:Microsoft.Samples.NLayerApp.Domain.Core.Entity.Id"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Moles.MEntity.AllInstances.IsTransient">
+            <summary>Sets the mole of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.Entity.IsTransient"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Moles.MEntity.AllInstances.OnIdChanged">
+            <summary>Sets the mole of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.Entity.OnIdChanged"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MExpressionBuilder">
+            <summary>Mole type of <see cref="T:Microsoft.Samples.NLayerApp.Domain.Core.Specification.ExpressionBuilder"/>
+            .</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MExpressionBuilder.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MExpressionBuilder.AndExpressionOfFuncOfTBooleanExpressionOfFuncOfTBoolean``1(Microsoft.Moles.Framework.MolesDelegates.Func{System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}},System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}},System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}}})">
+            <summary>Sets the mole of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.ExpressionBuilder.And``1(System.Linq.Expressions.Expression`1{System.Func`2{``0,System.Boolean}},System.Linq.Expressions.Expression`1{System.Func`2{``0,System.Boolean}})"/>
+            </summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MExpressionBuilder.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MExpressionBuilder.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MExpressionBuilder.ComposeExpressionOfTExpressionOfTFuncOfExpressionExpressionExpression``1(Microsoft.Moles.Framework.MolesDelegates.Func{System.Linq.Expressions.Expression{``0},System.Linq.Expressions.Expression{``0},System.Func{System.Linq.Expressions.Expression,System.Linq.Expressions.Expression,System.Linq.Expressions.Expression},System.Linq.Expressions.Expression{``0}})">
+            <summary>Sets the mole of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.ExpressionBuilder.Compose``1(System.Linq.Expressions.Expression`1{``0},System.Linq.Expressions.Expression`1{``0},System.Func`3{System.Linq.Expressions.Expression,System.Linq.Expressions.Expression,System.Linq.Expressions.Expression})"/>
+            </summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MExpressionBuilder.OrExpressionOfFuncOfTBooleanExpressionOfFuncOfTBoolean``1(Microsoft.Moles.Framework.MolesDelegates.Func{System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}},System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}},System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}}})">
+            <summary>Sets the mole of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.ExpressionBuilder.Or``1(System.Linq.Expressions.Expression`1{System.Func`2{``0,System.Boolean}},System.Linq.Expressions.Expression`1{System.Func`2{``0,System.Boolean}})"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MExpressionBuilder.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Domain.Core.Moles.MIdentityGenerator">
+            <summary>Mole type of <see cref="T:Microsoft.Samples.NLayerApp.Domain.Core.IdentityGenerator"/>
+            .</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Moles.MIdentityGenerator.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Moles.MIdentityGenerator.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Moles.MIdentityGenerator.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Moles.MIdentityGenerator.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Moles.MIdentityGenerator.NewSecuentialGuid">
+            <summary>Sets the mole of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.IdentityGenerator.NewSecuentialGuid"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MNotSpecification`1">
+            <summary>Mole type of <see cref="T:Microsoft.Samples.NLayerApp.Domain.Core.Specification.NotSpecification`1"/>
+            .</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MNotSpecification`1.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MNotSpecification`1.#ctor(Microsoft.Samples.NLayerApp.Domain.Core.Specification.NotSpecification{`0})">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MNotSpecification`1.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MNotSpecification`1.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MNotSpecification`1.Bind(Microsoft.Samples.NLayerApp.Domain.Core.Specification.ISpecification{`0})">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MNotSpecification`1.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MNotSpecification`1.ConstructorExpressionOfFuncOfTEntityBoolean">
+            <summary>Sets the mole of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.NotSpecification`1.#ctor(System.Linq.Expressions.Expression`1{System.Func`2{`1,System.Boolean}})"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MNotSpecification`1.ConstructorISpecificationOfTEntity">
+            <summary>Sets the mole of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.NotSpecification`1.#ctor(Microsoft.Samples.NLayerApp.Domain.Core.Specification.ISpecification`1{`1})"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MNotSpecification`1.SatisfiedBy">
+            <summary>Sets the mole of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.NotSpecification`1.SatisfiedBy"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MNotSpecification`1.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MNotSpecification`1.AllInstances.SatisfiedBy">
+            <summary>Sets the mole of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.NotSpecification`1.SatisfiedBy"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MOrSpecification`1">
+            <summary>Mole type of <see cref="T:Microsoft.Samples.NLayerApp.Domain.Core.Specification.OrSpecification`1"/>
+            .</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MOrSpecification`1.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MOrSpecification`1.#ctor(Microsoft.Samples.NLayerApp.Domain.Core.Specification.OrSpecification{`0})">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MOrSpecification`1.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MOrSpecification`1.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MOrSpecification`1.Bind(Microsoft.Samples.NLayerApp.Domain.Core.Specification.ISpecification{`0})">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MOrSpecification`1.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MOrSpecification`1.ConstructorISpecificationOfTISpecificationOfT">
+            <summary>Sets the mole of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.OrSpecification`1.#ctor(Microsoft.Samples.NLayerApp.Domain.Core.Specification.ISpecification`1{`1},Microsoft.Samples.NLayerApp.Domain.Core.Specification.ISpecification`1{`1})"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MOrSpecification`1.LeftSideSpecificationGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.Samples.NLayerApp.Domain.Core.Specification.OrSpecification`1.LeftSideSpecification"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MOrSpecification`1.RightSideSpecificationGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.Samples.NLayerApp.Domain.Core.Specification.OrSpecification`1.RightSideSpecification"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MOrSpecification`1.SatisfiedBy">
+            <summary>Sets the mole of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.OrSpecification`1.SatisfiedBy"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MOrSpecification`1.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MOrSpecification`1.AllInstances.LeftSideSpecificationGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.Samples.NLayerApp.Domain.Core.Specification.OrSpecification`1.LeftSideSpecification"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MOrSpecification`1.AllInstances.RightSideSpecificationGet">
+            <summary>Sets the mole of <see cref="P:Microsoft.Samples.NLayerApp.Domain.Core.Specification.OrSpecification`1.RightSideSpecification"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MOrSpecification`1.AllInstances.SatisfiedBy">
+            <summary>Sets the mole of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.OrSpecification`1.SatisfiedBy"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MParameterRebinder">
+            <summary>Mole type of <see cref="T:Microsoft.Samples.NLayerApp.Domain.Core.Specification.ParameterRebinder"/>
+            .</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MParameterRebinder.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MParameterRebinder.#ctor(Microsoft.Samples.NLayerApp.Domain.Core.Specification.ParameterRebinder)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MParameterRebinder.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MParameterRebinder.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MParameterRebinder.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MParameterRebinder.ConstructorDictionaryOfParameterExpressionParameterExpression">
+            <summary>Sets the mole of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.ParameterRebinder.#ctor(System.Collections.Generic.Dictionary`2{System.Linq.Expressions.ParameterExpression,System.Linq.Expressions.ParameterExpression})"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MParameterRebinder.ReplaceParametersDictionaryOfParameterExpressionParameterExpressionExpression">
+            <summary>Sets the mole of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.ParameterRebinder.ReplaceParameters(System.Collections.Generic.Dictionary`2{System.Linq.Expressions.ParameterExpression,System.Linq.Expressions.ParameterExpression},System.Linq.Expressions.Expression)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MParameterRebinder.VisitParameterParameterExpression">
+            <summary>Sets the mole of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.ParameterRebinder.VisitParameter(System.Linq.Expressions.ParameterExpression)"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MParameterRebinder.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MParameterRebinder.AllInstances.VisitParameterParameterExpression">
+            <summary>Sets the mole of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.ParameterRebinder.VisitParameter(System.Linq.Expressions.ParameterExpression)"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MSpecification`1">
+            <summary>Mole type of <see cref="T:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Specification`1"/>
+            .</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MSpecification`1.#ctor(Microsoft.Samples.NLayerApp.Domain.Core.Specification.Specification{`0})">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MSpecification`1.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MSpecification`1.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MSpecification`1.Bind(Microsoft.Samples.NLayerApp.Domain.Core.Specification.ISpecification{`0})">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MSpecification`1.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MSpecification`1.BitwiseAndOpSpecificationOfTEntitySpecificationOfTEntity">
+            <summary>Sets the mole of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Specification`1.op_BitwiseAnd(Microsoft.Samples.NLayerApp.Domain.Core.Specification.Specification`1{`1},Microsoft.Samples.NLayerApp.Domain.Core.Specification.Specification`1{`1})"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MSpecification`1.BitwiseOrOpSpecificationOfTEntitySpecificationOfTEntity">
+            <summary>Sets the mole of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Specification`1.op_BitwiseOr(Microsoft.Samples.NLayerApp.Domain.Core.Specification.Specification`1{`1},Microsoft.Samples.NLayerApp.Domain.Core.Specification.Specification`1{`1})"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MSpecification`1.Constructor">
+            <summary>Sets the mole of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Specification`1.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MSpecification`1.FalseOpSpecificationOfTEntity">
+            <summary>Sets the mole of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Specification`1.op_False(Microsoft.Samples.NLayerApp.Domain.Core.Specification.Specification`1{`1})"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MSpecification`1.LogicalNotOpSpecificationOfTEntity">
+            <summary>Sets the mole of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Specification`1.op_LogicalNot(Microsoft.Samples.NLayerApp.Domain.Core.Specification.Specification`1{`1})"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MSpecification`1.TrueOpSpecificationOfTEntity">
+            <summary>Sets the mole of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Specification`1.op_True(Microsoft.Samples.NLayerApp.Domain.Core.Specification.Specification`1{`1})"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MSpecification`1.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MTrueSpecification`1">
+            <summary>Mole type of <see cref="T:Microsoft.Samples.NLayerApp.Domain.Core.Specification.TrueSpecification`1"/>
+            .</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MTrueSpecification`1.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MTrueSpecification`1.#ctor(Microsoft.Samples.NLayerApp.Domain.Core.Specification.TrueSpecification{`0})">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MTrueSpecification`1.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MTrueSpecification`1.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MTrueSpecification`1.Bind(Microsoft.Samples.NLayerApp.Domain.Core.Specification.ISpecification{`0})">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MTrueSpecification`1.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MTrueSpecification`1.Constructor">
+            <summary>Sets the mole of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.TrueSpecification`1.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MTrueSpecification`1.SatisfiedBy">
+            <summary>Sets the mole of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.TrueSpecification`1.SatisfiedBy"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MTrueSpecification`1.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.MTrueSpecification`1.AllInstances.SatisfiedBy">
+            <summary>Sets the mole of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.TrueSpecification`1.SatisfiedBy"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Domain.Core.Moles.MValueObject`1">
+            <summary>Mole type of <see cref="T:Microsoft.Samples.NLayerApp.Domain.Core.ValueObject`1"/>
+            .</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Moles.MValueObject`1.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Moles.MValueObject`1.#ctor(Microsoft.Samples.NLayerApp.Domain.Core.ValueObject{`0})">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Moles.MValueObject`1.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Moles.MValueObject`1.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Moles.MValueObject`1.Bind(System.IEquatable{`0})">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Moles.MValueObject`1.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Moles.MValueObject`1.Constructor">
+            <summary>Sets the mole of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.ValueObject`1.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Moles.MValueObject`1.EqualityOpValueObjectOfTValueObjectValueObjectOfTValueObject">
+            <summary>Sets the mole of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.ValueObject`1.op_Equality(Microsoft.Samples.NLayerApp.Domain.Core.ValueObject`1{`1},Microsoft.Samples.NLayerApp.Domain.Core.ValueObject`1{`1})"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Moles.MValueObject`1.EqualsObject">
+            <summary>Sets the mole of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.ValueObject`1.Equals(System.Object)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Moles.MValueObject`1.EqualsTValueObject">
+            <summary>Sets the mole of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.ValueObject`1.Equals(`1)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Moles.MValueObject`1.GetHashCode">
+            <summary>Sets the mole of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.ValueObject`1.GetHashCode"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Moles.MValueObject`1.InequalityOpValueObjectOfTValueObjectValueObjectOfTValueObject">
+            <summary>Sets the mole of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.ValueObject`1.op_Inequality(Microsoft.Samples.NLayerApp.Domain.Core.ValueObject`1{`1},Microsoft.Samples.NLayerApp.Domain.Core.ValueObject`1{`1})"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Domain.Core.Moles.MValueObject`1.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Moles.MValueObject`1.AllInstances.EqualsObject">
+            <summary>Sets the mole of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.ValueObject`1.Equals(System.Object)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Moles.MValueObject`1.AllInstances.EqualsTValueObject">
+            <summary>Sets the mole of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.ValueObject`1.Equals(`1)"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Moles.MValueObject`1.AllInstances.GetHashCode01">
+            <summary>Sets the mole of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.ValueObject`1.GetHashCode"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.SCompositeSpecification`1">
+            <summary>Stub type of <see cref="T:Microsoft.Samples.NLayerApp.Domain.Core.Specification.CompositeSpecification`1"/>
+            .</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.SCompositeSpecification`1.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.SCompositeSpecification`1.InitializeStub">
+            <summary>Initializes a new instance of type SCompositeSpecification</summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.SCompositeSpecification`1.LeftSideSpecificationGet">
+            <summary>Sets the stub of <see cref="P:Microsoft.Samples.NLayerApp.Domain.Core.Specification.CompositeSpecification`1.LeftSideSpecification"/>
+            </summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.SCompositeSpecification`1.RightSideSpecificationGet">
+            <summary>Sets the stub of <see cref="P:Microsoft.Samples.NLayerApp.Domain.Core.Specification.CompositeSpecification`1.RightSideSpecification"/>
+            </summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.SCompositeSpecification`1.SatisfiedBy">
+            <summary>Sets the stub of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Specification`1.SatisfiedBy"/>
+            </summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.SCompositeSpecification`1.SatisfiedBy01">
+            <summary>Sets the stub of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Specification`1.SatisfiedBy"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.SCompositeSpecification`1.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.SCompositeSpecification`1.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.SCompositeSpecification`1.LeftSideSpecification">
+            <summary>Sets the stub of <see cref="P:Microsoft.Samples.NLayerApp.Domain.Core.Specification.CompositeSpecification`1.LeftSideSpecification"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.SCompositeSpecification`1.RightSideSpecification">
+            <summary>Sets the stub of <see cref="P:Microsoft.Samples.NLayerApp.Domain.Core.Specification.CompositeSpecification`1.RightSideSpecification"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Domain.Core.Moles.SEntity">
+            <summary>Stub type of <see cref="T:Microsoft.Samples.NLayerApp.Domain.Core.Entity"/>
+            .</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Moles.SEntity.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Moles.SEntity.AttachBackingFieldToId">
+            <summary>Attaches delegates to emulate SEntity.Id as a property with a backing field</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Moles.SEntity.Equals(System.Object)">
+            <summary>Sets the stub of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.Entity.Equals(System.Object)"/>
+            </summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Domain.Core.Moles.SEntity.EqualsObject">
+            <summary>Sets the stub of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.Entity.Equals(System.Object)"/>
+            </summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Moles.SEntity.GetHashCode">
+            <summary>Sets the stub of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.Entity.GetHashCode"/>
+            </summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Domain.Core.Moles.SEntity.GetHashCode01">
+            <summary>Sets the stub of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.Entity.GetHashCode"/>
+            </summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Domain.Core.Moles.SEntity.IdGet">
+            <summary>Sets the stub of <see cref="P:Microsoft.Samples.NLayerApp.Domain.Core.Entity.Id"/>
+            </summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Domain.Core.Moles.SEntity.IdSetGuid">
+            <summary>Sets the stub of <see cref="P:Microsoft.Samples.NLayerApp.Domain.Core.Entity.Id"/>
+            </summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Moles.SEntity.InitializeStub">
+            <summary>Initializes a new instance of type SEntity</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Moles.SEntity.OnIdChanged">
+            <summary>Sets the stub of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.Entity.OnIdChanged"/>
+            </summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Domain.Core.Moles.SEntity.OnIdChanged01">
+            <summary>Sets the stub of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.Entity.OnIdChanged"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Moles.SEntity.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Moles.SEntity.Id">
+            <summary>Sets the stub of <see cref="P:Microsoft.Samples.NLayerApp.Domain.Core.Entity.Id"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Moles.SEntity.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Domain.Core.Moles.SIRepository`1">
+            <summary>Stub type of <see cref="T:Microsoft.Samples.NLayerApp.Domain.Core.IRepository`1"/>
+            .</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Moles.SIRepository`1.#ctor">
+            <summary>Initializes a new instance of type SIRepository</summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Domain.Core.Moles.SIRepository`1.AddTEntity">
+            <summary>Sets the stub of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.IRepository`1.Add(`1)"/>
+            </summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Domain.Core.Moles.SIRepository`1.AllMatchingISpecificationOfTEntity">
+            <summary>Sets the stub of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.IRepository`1.AllMatching(Microsoft.Samples.NLayerApp.Domain.Core.Specification.ISpecification`1{`1})"/>
+            </summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Domain.Core.Moles.SIRepository`1.GetAll">
+            <summary>Sets the stub of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.IRepository`1.GetAll"/>
+            </summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Domain.Core.Moles.SIRepository`1.GetFilteredExpressionOfFuncOfTEntityBoolean">
+            <summary>Sets the stub of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.IRepository`1.GetFiltered(System.Linq.Expressions.Expression`1{System.Func`2{`1,System.Boolean}})"/>
+            </summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Domain.Core.Moles.SIRepository`1.GetGuid">
+            <summary>Sets the stub of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.IRepository`1.Get(System.Guid)"/>
+            </summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Moles.SIRepository`1.GetPagedInt32Int32ExpressionOfFuncOfTEntitySBoolean``1(Microsoft.Moles.Framework.MolesDelegates.Func{System.Int32,System.Int32,System.Linq.Expressions.Expression{System.Func{`0,``0}},System.Boolean,System.Collections.Generic.IEnumerable{`0}})">
+            <summary>Sets stubs of GetPaged(Int32 pageIndex, Int32 pageCount, Expression`1&lt;Func`2&lt;!0,!!0&gt;&gt; orderByExpression, Boolean ascending)</summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Domain.Core.Moles.SIRepository`1.MergeTEntityTEntity">
+            <summary>Sets the stub of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.IRepository`1.Merge(`1,`1)"/>
+            </summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Moles.SIRepository`1.nladc::Microsoft#Samples#NLayerApp#Domain#Core#IRepository{TEntity}#Add(`0)">
+            <summary>Sets the stub of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.IRepository`1.Add(`1)"/>
+            </summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Moles.SIRepository`1.nladc::Microsoft#Samples#NLayerApp#Domain#Core#IRepository{TEntity}#AllMatching(Microsoft.Samples.NLayerApp.Domain.Core.Specification.ISpecification{`0})">
+            <summary>Sets the stub of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.IRepository`1.AllMatching(Microsoft.Samples.NLayerApp.Domain.Core.Specification.ISpecification`1{`1})"/>
+            </summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Moles.SIRepository`1.nladc::Microsoft#Samples#NLayerApp#Domain#Core#IRepository{TEntity}#Get(System.Guid)">
+            <summary>Sets the stub of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.IRepository`1.Get(System.Guid)"/>
+            </summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Moles.SIRepository`1.nladc::Microsoft#Samples#NLayerApp#Domain#Core#IRepository{TEntity}#GetAll">
+            <summary>Sets the stub of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.IRepository`1.GetAll"/>
+            </summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Moles.SIRepository`1.nladc::Microsoft#Samples#NLayerApp#Domain#Core#IRepository{TEntity}#GetFiltered(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})">
+            <summary>Sets the stub of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.IRepository`1.GetFiltered(System.Linq.Expressions.Expression`1{System.Func`2{`1,System.Boolean}})"/>
+            </summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Moles.SIRepository`1.nladc::Microsoft#Samples#NLayerApp#Domain#Core#IRepository{TEntity}#GetPaged``1(System.Int32,System.Int32,System.Linq.Expressions.Expression{System.Func{`0,``0}},System.Boolean)">
+            <summary>Sets the stub of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.IRepository`1.GetPaged``1(System.Int32,System.Int32,System.Linq.Expressions.Expression`1{System.Func`2{`1,``0}},System.Boolean)"/>
+            </summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Moles.SIRepository`1.nladc::Microsoft#Samples#NLayerApp#Domain#Core#IRepository{TEntity}#Merge(`0,`0)">
+            <summary>Sets the stub of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.IRepository`1.Merge(`1,`1)"/>
+            </summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Moles.SIRepository`1.nladc::Microsoft#Samples#NLayerApp#Domain#Core#IRepository{TEntity}#Remove(`0)">
+            <summary>Sets the stub of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.IRepository`1.Remove(`1)"/>
+            </summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Moles.SIRepository`1.nladc::Microsoft#Samples#NLayerApp#Domain#Core#IRepository{TEntity}#TrackItem(`0)">
+            <summary>Sets the stub of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.IRepository`1.TrackItem(`1)"/>
+            </summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Domain.Core.Moles.SIRepository`1.RemoveTEntity">
+            <summary>Sets the stub of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.IRepository`1.Remove(`1)"/>
+            </summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Domain.Core.Moles.SIRepository`1.TrackItemTEntity">
+            <summary>Sets the stub of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.IRepository`1.TrackItem(`1)"/>
+            </summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Domain.Core.Moles.SIRepository`1.UnitOfWorkGet">
+            <summary>Sets the stub of <see cref="P:Microsoft.Samples.NLayerApp.Domain.Core.IRepository`1.UnitOfWork"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Moles.SIRepository`1.nladc::Microsoft#Samples#NLayerApp#Domain#Core#IRepository{TEntity}#UnitOfWork">
+            <summary>Sets the stub of <see cref="P:Microsoft.Samples.NLayerApp.Domain.Core.IRepository`1.UnitOfWork"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Domain.Core.Moles.SISQL">
+            <summary>Stub type of <see cref="T:Microsoft.Samples.NLayerApp.Domain.Core.ISQL"/>
+            .</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Moles.SISQL.#ctor">
+            <summary>Initializes a new instance of type SISQL</summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Domain.Core.Moles.SISQL.ExecuteCommandStringObjectArray">
+            <summary>Sets the stub of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.ISQL.ExecuteCommand(System.String,System.Object[])"/>
+            </summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Moles.SISQL.ExecuteQueryStringObjectArray``1(Microsoft.Moles.Framework.MolesDelegates.Func{System.String,System.Object[],System.Collections.Generic.IEnumerable{``0}})">
+            <summary>Sets stubs of ExecuteQuery(String sqlQuery, Object[] parameters)</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Moles.SISQL.nladc::Microsoft#Samples#NLayerApp#Domain#Core#ISQL#ExecuteCommand(System.String,System.Object[])">
+            <summary>Sets the stub of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.ISQL.ExecuteCommand(System.String,System.Object[])"/>
+            </summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Moles.SISQL.nladc::Microsoft#Samples#NLayerApp#Domain#Core#ISQL#ExecuteQuery``1(System.String,System.Object[])">
+            <summary>Sets the stub of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.ISQL.ExecuteQuery``1(System.String,System.Object[])"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.SISpecification`1">
+            <summary>Stub type of <see cref="T:Microsoft.Samples.NLayerApp.Domain.Core.Specification.ISpecification`1"/>
+            .</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.SISpecification`1.#ctor">
+            <summary>Initializes a new instance of type SISpecification</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.SISpecification`1.nladc::Microsoft#Samples#NLayerApp#Domain#Core#Specification#ISpecification{TEntity}#SatisfiedBy">
+            <summary>Sets the stub of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.ISpecification`1.SatisfiedBy"/>
+            </summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.SISpecification`1.SatisfiedBy">
+            <summary>Sets the stub of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.ISpecification`1.SatisfiedBy"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Domain.Core.Moles.SIUnitOfWork">
+            <summary>Stub type of <see cref="T:Microsoft.Samples.NLayerApp.Domain.Core.IUnitOfWork"/>
+            .</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Moles.SIUnitOfWork.#ctor">
+            <summary>Initializes a new instance of type SIUnitOfWork</summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Domain.Core.Moles.SIUnitOfWork.Commit">
+            <summary>Sets the stub of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.IUnitOfWork.Commit"/>
+            </summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Domain.Core.Moles.SIUnitOfWork.CommitAndRefreshChanges">
+            <summary>Sets the stub of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.IUnitOfWork.CommitAndRefreshChanges"/>
+            </summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Domain.Core.Moles.SIUnitOfWork.Dispose">
+            <summary>Sets the stub of <see cref="M:System.IDisposable.Dispose"/>
+            </summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Domain.Core.Moles.SIUnitOfWork.ExecuteCommandStringObjectArray">
+            <summary>Sets the stub of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.ISQL.ExecuteCommand(System.String,System.Object[])"/>
+            </summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Moles.SIUnitOfWork.ExecuteQueryStringObjectArray``1(Microsoft.Moles.Framework.MolesDelegates.Func{System.String,System.Object[],System.Collections.Generic.IEnumerable{``0}})">
+            <summary>Sets stubs of ExecuteQuery(String sqlQuery, Object[] parameters)</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Moles.SIUnitOfWork.nladc::Microsoft#Samples#NLayerApp#Domain#Core#ISQL#ExecuteCommand(System.String,System.Object[])">
+            <summary>Sets the stub of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.ISQL.ExecuteCommand(System.String,System.Object[])"/>
+            </summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Moles.SIUnitOfWork.nladc::Microsoft#Samples#NLayerApp#Domain#Core#ISQL#ExecuteQuery``1(System.String,System.Object[])">
+            <summary>Sets the stub of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.ISQL.ExecuteQuery``1(System.String,System.Object[])"/>
+            </summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Moles.SIUnitOfWork.nladc::Microsoft#Samples#NLayerApp#Domain#Core#IUnitOfWork#Commit">
+            <summary>Sets the stub of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.IUnitOfWork.Commit"/>
+            </summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Moles.SIUnitOfWork.nladc::Microsoft#Samples#NLayerApp#Domain#Core#IUnitOfWork#CommitAndRefreshChanges">
+            <summary>Sets the stub of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.IUnitOfWork.CommitAndRefreshChanges"/>
+            </summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Moles.SIUnitOfWork.nladc::Microsoft#Samples#NLayerApp#Domain#Core#IUnitOfWork#RollbackChanges">
+            <summary>Sets the stub of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.IUnitOfWork.RollbackChanges"/>
+            </summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Domain.Core.Moles.SIUnitOfWork.RollbackChanges">
+            <summary>Sets the stub of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.IUnitOfWork.RollbackChanges"/>
+            </summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Moles.SIUnitOfWork.global::System#IDisposable#Dispose">
+            <summary>Sets the stub of <see cref="M:System.IDisposable.Dispose"/>
+            </summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.SSpecification`1">
+            <summary>Stub type of <see cref="T:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Specification`1"/>
+            .</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.SSpecification`1.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.SSpecification`1.InitializeStub">
+            <summary>Initializes a new instance of type SSpecification</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.SSpecification`1.SatisfiedBy">
+            <summary>Sets the stub of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Specification`1.SatisfiedBy"/>
+            </summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.SSpecification`1.SatisfiedBy01">
+            <summary>Sets the stub of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Specification`1.SatisfiedBy"/>
+            </summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.SSpecification`1.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Specification.Moles.SSpecification`1.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:Microsoft.Samples.NLayerApp.Domain.Core.Moles.SValueObject`1">
+            <summary>Stub type of <see cref="T:Microsoft.Samples.NLayerApp.Domain.Core.ValueObject`1"/>
+            .</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Moles.SValueObject`1.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Moles.SValueObject`1.Equals(System.Object)">
+            <summary>Sets the stub of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.ValueObject`1.Equals(System.Object)"/>
+            </summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Domain.Core.Moles.SValueObject`1.EqualsObject">
+            <summary>Sets the stub of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.ValueObject`1.Equals(System.Object)"/>
+            </summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Moles.SValueObject`1.GetHashCode">
+            <summary>Sets the stub of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.ValueObject`1.GetHashCode"/>
+            </summary>
+        </member>
+        <member name="F:Microsoft.Samples.NLayerApp.Domain.Core.Moles.SValueObject`1.GetHashCode01">
+            <summary>Sets the stub of <see cref="M:Microsoft.Samples.NLayerApp.Domain.Core.ValueObject`1.GetHashCode"/>
+            </summary>
+        </member>
+        <member name="M:Microsoft.Samples.NLayerApp.Domain.Core.Moles.SValueObject`1.InitializeStub">
+            <summary>Initializes a new instance of type SValueObject</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Moles.SValueObject`1.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Microsoft.Samples.NLayerApp.Domain.Core.Moles.SValueObject`1.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+    </members>
+</doc>

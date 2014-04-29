@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{75E4283A-61D1-4067-9F51-25EFB55113A6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Microsoft.Samples.NLayerApp.Application.MainBoundedContext</RootNamespace>
+    <AssemblyName>NLayerApp.Application.MainBoundedContext</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AutoMapper">
+      <HintPath>..\packages\AutoMapper.1.1.0.118\lib\AutoMapper.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BankingModule\DTOAdapters\BankingModuleRegisterTypesMap.cs" />
+    <Compile Include="BankingModule\DTOAdapters\Maps\BankAccountEnumerableToBankAccountDTOListMap.cs" />
+    <Compile Include="BankingModule\DTOAdapters\Maps\BankActivityEnumerableToBankActivityDTOListMap.cs" />
+    <Compile Include="BankingModule\DTOAdapters\Maps\BankActivityToBankActivityDTOMap.cs" />
+    <Compile Include="BankingModule\DTOAdapters\Maps\BankAccountToBankAccountDTOMap.cs" />
+    <Compile Include="BankingModule\DTOs\BankActivityDTO.cs" />
+    <Compile Include="BankingModule\DTOs\BankAccountDTO.cs" />
+    <Compile Include="BankingModule\Services\IBankAppService.cs" />
+    <Compile Include="BankingModule\Services\BankAppService.cs" />
+    <Compile Include="ERPModule\DTOAdapters\ERPModuleRegisterTypesMap.cs" />
+    <Compile Include="ERPModule\DTOAdapters\Maps\BookEnumerableToBookDTOListMap.cs" />
+    <Compile Include="ERPModule\DTOAdapters\Maps\BookToBookDTOMap.cs" />
+    <Compile Include="ERPModule\DTOAdapters\Maps\CountryEnumerableToCountryDTOListMap.cs" />
+    <Compile Include="ERPModule\DTOAdapters\Maps\CountryToCountryDTOMap.cs" />
+    <Compile Include="ERPModule\DTOAdapters\Maps\CustomerEnumerableToCustomerListDTOListMap.cs" />
+    <Compile Include="ERPModule\DTOAdapters\Maps\CustomerToCustomerDTOMap.cs" />
+    <Compile Include="ERPModule\DTOAdapters\Maps\OrderEnumerableToOrderListDTOListMap.cs" />
+    <Compile Include="ERPModule\DTOAdapters\Maps\OrderLineEnumerableToOrderLineDTOListMap.cs" />
+    <Compile Include="ERPModule\DTOAdapters\Maps\OrderLineToOrderLineDTOMap.cs" />
+    <Compile Include="ERPModule\DTOAdapters\Maps\OrderToOrderDTOMap.cs" />
+    <Compile Include="ERPModule\DTOAdapters\Maps\ProductEnumerableToProductDTOListMap.cs" />
+    <Compile Include="ERPModule\DTOAdapters\Maps\ProductToProductDTOMap.cs" />
+    <Compile Include="ERPModule\DTOAdapters\Maps\SoftwareEnumerableToSoftwareDTOListMap.cs" />
+    <Compile Include="ERPModule\DTOAdapters\Maps\SoftwareToSoftwareDTOMap.cs" />
+    <Compile Include="ERPModule\DTOs\BookDTO.cs" />
+    <Compile Include="ERPModule\DTOs\CountryDTO.cs" />
+    <Compile Include="ERPModule\DTOs\CustomerDTO.cs" />
+    <Compile Include="ERPModule\DTOs\CustomerListDTO.cs" />
+    <Compile Include="ERPModule\DTOs\OrderDTO.cs" />
+    <Compile Include="ERPModule\DTOs\OrderLineDTO.cs" />
+    <Compile Include="ERPModule\DTOs\OrderListDTO.cs" />
+    <Compile Include="ERPModule\DTOs\ProductDTO.cs" />
+    <Compile Include="ERPModule\DTOs\SoftwareDTO.cs" />
+    <Compile Include="ERPModule\Services\CustomerAppService.cs" />
+    <Compile Include="ERPModule\Services\ICustomerAppService.cs" />
+    <Compile Include="ERPModule\Services\SalesAppService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\Messages.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Messages.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ERPModule\Services\ISalesAppService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Application.Seedwork\Application.Seedwork.csproj">
+      <Project>{7F17BC81-B7D1-46D8-A94B-FDBAE17F94B7}</Project>
+      <Name>Application.Seedwork</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Domain.MainBoundedContext\Domain.MainBoundedContext.csproj">
+      <Project>{F7F15F85-A171-4EDC-B507-03A8D80915A8}</Project>
+      <Name>Domain.MainBoundedContext</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Domain.Seedwork\Domain.Seedwork.csproj">
+      <Project>{04D675A3-B794-44BD-A25C-673BB44739CB}</Project>
+      <Name>Domain.Seedwork</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Infrastructure.Crosscutting\Infrastructure.Crosscutting.csproj">
+      <Project>{106C7F00-C03F-4E29-87AF-ACD1BA292078}</Project>
+      <Name>Infrastructure.Crosscutting</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Messages.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Messages.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="DesignNotes.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
